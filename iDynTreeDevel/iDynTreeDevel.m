@@ -4,7 +4,7 @@
  *        iDynTree.m - Lie Geometric Algorithms for the Kinematics, Dynamics and
                        Control of Multibody Systems (MBS)
                        
-          by Marco Gabiccini
+          by Marco Gabiccini and Silvia Manara
           
           Dipartimento di Ingegneria Civile ed Industriale (DICI)
           Scuola di Ingegneria
