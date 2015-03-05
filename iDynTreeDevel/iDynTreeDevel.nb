@@ -1,0 +1,158 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4007,        148]
+NotebookOptionsPosition[      3187,        112]
+NotebookOutlinePosition[      3530,        127]
+CellTagsIndexPosition[      3487,        124]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["iDynTree - example use", "Title",
+ CellChangeTimes->{{3.6345569087018566`*^9, 3.6345569221022806`*^9}, {
+  3.634556963969056*^9, 3.634556970992458*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Package loading", "Section",
+ CellChangeTimes->{{3.634556945276987*^9, 3.634556979856965*^9}}],
+
+Cell[BoxData[
+ RowBox[{"<<", "iDynTreeDevel`"}]], "Input",
+ CellChangeTimes->{{3.6345568693117876`*^9, 3.634556876846601*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Example function calls", "Section",
+ CellChangeTimes->{{3.634556983848193*^9, 3.6345569899285407`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Rotation matrix about X-axis", "Subsection",
+ CellChangeTimes->{{3.6345569984640293`*^9, 3.634557015600009*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RotX", "[", "\[Alpha]", "]"}]], "Input",
+ CellChangeTimes->{{3.6345568794986057`*^9, 3.6345568835858126`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", 
+     RowBox[{"Cos", "[", "\[Alpha]", "]"}], ",", 
+     RowBox[{"-", 
+      RowBox[{"Sin", "[", "\[Alpha]", "]"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", 
+     RowBox[{"Sin", "[", "\[Alpha]", "]"}], ",", 
+     RowBox[{"Cos", "[", "\[Alpha]", "]"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.634556884397014*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Its view in more natural form", "Subsection",
+ CellChangeTimes->{{3.6345570252565613`*^9, 3.634557041233926*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RotX", "[", "\[Alpha]", "]"}], "//", "MatrixForm"}]], "Input",
+ CellChangeTimes->{{3.634556896409035*^9, 3.6345568998566413`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "0"},
+     {"0", 
+      RowBox[{"Cos", "[", "\[Alpha]", "]"}], 
+      RowBox[{"-", 
+       RowBox[{"Sin", "[", "\[Alpha]", "]"}]}]},
+     {"0", 
+      RowBox[{"Sin", "[", "\[Alpha]", "]"}], 
+      RowBox[{"Cos", "[", "\[Alpha]", "]"}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.6345569006210427`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{944, 1002},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 158, 2, 101, "Title"],
+Cell[CellGroupData[{
+Cell[762, 28, 100, 1, 86, "Section"],
+Cell[865, 31, 126, 2, 31, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1028, 38, 109, 1, 86, "Section"],
+Cell[CellGroupData[{
+Cell[1162, 43, 118, 1, 49, "Subsection"],
+Cell[CellGroupData[{
+Cell[1305, 48, 134, 2, 31, "Input"],
+Cell[1442, 52, 484, 14, 31, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1975, 72, 119, 1, 49, "Subsection"],
+Cell[CellGroupData[{
+Cell[2119, 77, 165, 3, 31, "Input"],
+Cell[2287, 82, 848, 24, 72, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
