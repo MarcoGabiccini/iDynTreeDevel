@@ -1,1 +1,1 @@
-File ReadMe da PC fisso.
+File ReadMe.
