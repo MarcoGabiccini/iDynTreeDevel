@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      4007,        148]
-NotebookOptionsPosition[      3187,        112]
-NotebookOutlinePosition[      3530,        127]
-CellTagsIndexPosition[      3487,        124]
+NotebookDataLength[      5455,        196]
+NotebookOptionsPosition[      4447,        153]
+NotebookOutlinePosition[      4790,        168]
+CellTagsIndexPosition[      4747,        165]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -22,7 +22,8 @@ Notebook[{
 Cell[CellGroupData[{
 Cell["iDynTree - example use", "Title",
  CellChangeTimes->{{3.6345569087018566`*^9, 3.6345569221022806`*^9}, {
-  3.634556963969056*^9, 3.634556970992458*^9}}],
+  3.634556963969056*^9, 3.634556970992458*^9}, {3.6350544617398243`*^9, 
+  3.6350544641734285`*^9}}],
 
 Cell[CellGroupData[{
 
@@ -64,7 +65,7 @@ Cell[BoxData[
     RowBox[{"0", ",", 
      RowBox[{"Sin", "[", "\[Alpha]", "]"}], ",", 
      RowBox[{"Cos", "[", "\[Alpha]", "]"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.634556884397014*^9}]
+ CellChangeTimes->{3.634556884397014*^9, 3.635054417674346*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -106,6 +107,46 @@ Cell[BoxData[
    MatrixForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{3.6345569006210427`*^9}]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Another test", "Subsection",
+ CellChangeTimes->{{3.635054475873449*^9, 3.6350544807566586`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RotY", "[", "\[Beta]", "]"}], "//", "MatrixForm"}]], "Input",
+ CellChangeTimes->{{3.6350544824258614`*^9, 3.635054501321494*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"Cos", "[", "\[Beta]", "]"}], "0", 
+      RowBox[{"Sin", "[", "\[Beta]", "]"}]},
+     {"0", "1", "0"},
+     {
+      RowBox[{"-", 
+       RowBox[{"Sin", "[", "\[Beta]", "]"}]}], "0", 
+      RowBox[{"Cos", "[", "\[Beta]", "]"}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.635054502586097*^9}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -127,25 +168,32 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 158, 2, 101, "Title"],
+Cell[579, 22, 211, 3, 101, "Title"],
 Cell[CellGroupData[{
-Cell[762, 28, 100, 1, 86, "Section"],
-Cell[865, 31, 126, 2, 31, "Input"]
+Cell[815, 29, 100, 1, 86, "Section"],
+Cell[918, 32, 126, 2, 31, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1028, 38, 109, 1, 86, "Section"],
+Cell[1081, 39, 109, 1, 86, "Section"],
 Cell[CellGroupData[{
-Cell[1162, 43, 118, 1, 49, "Subsection"],
+Cell[1215, 44, 118, 1, 49, "Subsection"],
 Cell[CellGroupData[{
-Cell[1305, 48, 134, 2, 31, "Input"],
-Cell[1442, 52, 484, 14, 31, "Output"]
+Cell[1358, 49, 134, 2, 31, "Input"],
+Cell[1495, 53, 506, 14, 31, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1975, 72, 119, 1, 49, "Subsection"],
+Cell[2050, 73, 119, 1, 49, "Subsection"],
 Cell[CellGroupData[{
-Cell[2119, 77, 165, 3, 31, "Input"],
-Cell[2287, 82, 848, 24, 72, "Output"]
+Cell[2194, 78, 165, 3, 31, "Input"],
+Cell[2362, 83, 848, 24, 58, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3259, 113, 102, 1, 49, "Subsection"],
+Cell[CellGroupData[{
+Cell[3386, 118, 164, 3, 31, "Input"],
+Cell[3553, 123, 842, 24, 128, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -155,4 +203,3 @@ Cell[2287, 82, 848, 24, 72, "Output"]
 *)
 
 (* End of internal cache information *)
-
